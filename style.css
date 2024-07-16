@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .presentation, .footer{
+    background-color: #1F2937;
+}
+
+.quotebox{
+    background-color: #E5E7EB;
+}
+
