@@ -1,9 +1,20 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
     justify-content: space-between;
+    margin: 0;
+    overflow: hidden;
 }
+
+/* PADDING LEFT RIGHT ALL PAGE */
+
+.allpage-padding{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* COLOR CORRECTION */
 
 .top-title{
     color: #F9FAF8;
@@ -30,10 +41,19 @@ body{
     color: #E5E7EB;
 }
 
+.copywright{
+    color: white;
+}
+
+/* FLEX AND MARGIN */
+
+/* HEADER PART */
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 42px;
 }
 
 ul{
@@ -48,3 +68,14 @@ a{
     text-decoration: none;
 }
 
+/* MIDDLEBOX PART */
+
+.middlebox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* HEADER PART */
