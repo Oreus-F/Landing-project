@@ -78,4 +78,15 @@ a{
 }
 
 
-/* HEADER PART */
+/* FOOTER PART */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+
+.copywright{
+   font-size: 12px; 
+}
