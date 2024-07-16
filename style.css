@@ -3,8 +3,21 @@ body{
     flex-direction: column;
 }
 
+.top-title{
+    color: #F9FAF8;
+}
+
 .header, .presentation, .footer{
     background-color: #1F2937;
+}
+
+.informationtitle, .quotebox{
+    color: #1F2937;
+}
+
+.signbox, .signbutton{
+    background-color: #3882F6;
+    color: white;
 }
 
 .quotebox{
