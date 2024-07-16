@@ -1,6 +1,8 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 .top-title{
@@ -24,6 +26,10 @@ body{
     background-color: #E5E7EB;
 }
 
+.color-adjustment, a{
+    color: #E5E7EB;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -40,10 +46,5 @@ ul{
 
 a{
     text-decoration: none;
-    color: #E5E7EB;
-}
-
-.right-link{
-
 }
 
