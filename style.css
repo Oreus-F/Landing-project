@@ -37,15 +37,31 @@ body{
     background-color: #E5E7EB;
 }
 
-.color-adjustment, a{
+.second-text, a{
     color: #E5E7EB;
+}
+
+.second-text{
+    font-size: 18px;
 }
 
 .copywright{
     color: white;
 }
 
-/* FLEX AND MARGIN */
+/* SIZE FONT */
+
+.header-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.presentation-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
 
 /* HEADER PART */
 
