@@ -4,15 +4,15 @@ body{
     height: 100vh;
     justify-content: space-between;
     margin: 0;
-    overflow: hidden;
 }
 
 /* PADDING LEFT RIGHT ALL PAGE */
 
 .allpage-padding{
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
+
 
 /* COLOR CORRECTION */
 
@@ -54,6 +54,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 42px;
+    flex-shrink: 0;
 }
 
 ul{
@@ -77,6 +78,13 @@ a{
     justify-content: space-between;
 }
 
+.presentation{
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    gap: 16px;
+    
+}
 
 /* FOOTER PART */
 
@@ -85,8 +93,17 @@ a{
     justify-content: center;
     align-items: center;
     height: 42px;
+    flex-shrink: 0;
 }
 
 .copywright{
    font-size: 12px; 
+}
+
+
+/* IMG PART */
+
+.presentation img{
+    max-height: 180px;
+    width: auto;
 }
