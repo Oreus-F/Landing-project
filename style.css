@@ -28,7 +28,7 @@ body{
     color: #1F2937;
 }
 
-.signbox, .signbutton{
+.signbox, button{
     background-color: #3882F6;
     color: white;
 }
@@ -99,8 +99,9 @@ a{
     padding-bottom: 55px;
     display: flex;
     gap: 16px;
-    
+    align-items: center;
 }
+
 
 /* FOOTER PART */
 
@@ -114,12 +115,24 @@ a{
 
 .copywright{
    font-size: 12px; 
-}
+} 
 
 
 /* IMG PART */
 
-.presentation img{
-    max-height: 180px;
-    width: auto;
+
+
+
+
+/* BUTTON FIX */
+
+button{
+    padding: 6px 22px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 800;
+}
+
+.endbutton{
+    border: 2px solid white;
 }
