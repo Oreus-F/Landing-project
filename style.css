@@ -156,6 +156,31 @@ a{
     font-weight: 800;
 }
 
+.endbox{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signbox{
+    padding: 48px 85px;
+    display: flex;
+    gap: 96px;
+    border-radius: 8px;
+}
+
+.sign-title-text{
+    font-weight: 800;
+}
+
+.sign-title-text p{
+    margin: 0;
+    font-weight: 200;
+    font-size: 14px;
+}
+
 /* FOOTER PART */
 
 .footer{
@@ -174,7 +199,7 @@ a{
 /* BUTTON FIX */
 
 button{
-    padding: 6px 22px;
+    padding: 6px 30px;
     border-radius: 6px;
     border: 0;
     font-weight: 800;
@@ -182,4 +207,5 @@ button{
 
 .endbutton{
     border: 2px solid white;
+    flex: 0 0 auto;
 }
