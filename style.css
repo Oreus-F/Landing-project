@@ -100,8 +100,8 @@ a{
     display: flex;
     gap: 16px;
     align-items: center;
+    flex: auto;
 }
-
 
 /* FOOTER PART */
 
@@ -118,9 +118,7 @@ a{
 } 
 
 
-/* IMG PART */
-
-
+/* IMG PART*/
 
 
 
