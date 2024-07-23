@@ -99,7 +99,7 @@ a{
     padding-top: 55px;
     padding-bottom: 55px;
     display: flex;
-    gap: 55px;
+    gap: 100px;
     align-items: center;
     flex: auto;
 }
@@ -137,6 +137,23 @@ a{
 .card img{
     border-radius: 10px;
     border: black 1px solid;
+}
+
+.quotebox{
+    padding: 4% 26%;
+}
+
+.quotetext{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+}
+
+.quoteauthor{
+    text-align: end;
+    font-size: 26px;
+    font-weight: 800;
 }
 
 /* FOOTER PART */
