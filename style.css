@@ -4,6 +4,7 @@ body{
     height: 100vh;
     justify-content: space-between;
     margin: 0;
+    font-family: sans-serif;
 }
 
 /* PADDING LEFT RIGHT ALL PAGE */
@@ -98,7 +99,7 @@ a{
     padding-top: 55px;
     padding-bottom: 55px;
     display: flex;
-    gap: 16px;
+    gap: 55px;
     align-items: center;
     flex: auto;
 }
@@ -106,10 +107,36 @@ a{
 .informations{
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 100px;
 }
+
+.informationtitle{
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 30px;
+    padding-bottom: 48px;
+}
+
+
 
 .cardbox{
     display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+    flex: auto;
+}
+
+.card img{
+    border-radius: 10px;
+    border: black 1px solid;
 }
 
 /* FOOTER PART */
@@ -125,11 +152,6 @@ a{
 .copywright{
    font-size: 12px; 
 } 
-
-
-/* IMAGES CARD FIX */
-
-
 
 
 /* BUTTON FIX */
