@@ -9,8 +9,8 @@ body{
 /* PADDING LEFT RIGHT ALL PAGE */
 
 .allpage-padding{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
@@ -103,6 +103,15 @@ a{
     flex: auto;
 }
 
+.informations{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardbox{
+    display: flex;
+}
+
 /* FOOTER PART */
 
 .footer{
@@ -118,7 +127,8 @@ a{
 } 
 
 
-/* IMG PART*/
+/* IMAGES CARD FIX */
+
 
 
 
